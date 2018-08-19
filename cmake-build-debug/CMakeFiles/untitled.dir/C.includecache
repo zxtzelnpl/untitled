@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/was/CLionProjects/untitled/lesson3.1/Find_LIst.h
+stdlib.h
+-
+
+/home/was/CLionProjects/untitled/lesson3.1/hello.h
+stdio.h
+-
+
+/home/was/CLionProjects/untitled/lesson3.1/pointer.h
+stdlib.h
+-
+printf.h
+-
+
+/home/was/CLionProjects/untitled/main.c
+stdio.h
+-
+lesson3.1/hello.h
+/home/was/CLionProjects/untitled/lesson3.1/hello.h
+lesson3.1/pointer.h
+/home/was/CLionProjects/untitled/lesson3.1/pointer.h
+lesson3.1/Find_LIst.h
+/home/was/CLionProjects/untitled/lesson3.1/Find_LIst.h
+
